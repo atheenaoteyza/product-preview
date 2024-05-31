@@ -45,7 +45,6 @@ body {
   height: fit-content;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 h2 {
@@ -81,6 +80,8 @@ p {
   font-family: "Fraunces", sans-serif;
   margin-right: 1.2rem;
   font-weight: 600;
+  letter-spacing: 1px;
+
 }
 
 button {
@@ -94,6 +95,7 @@ button {
   letter-spacing: 1px;
   font-size: 0.9rem;
   box-shadow: 0;
+  border: none;
 }
 
 .add-to-c {
@@ -108,25 +110,23 @@ button {
 @media only screen and (max-width: 600px) {
   .container {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: red 2px solid;
     height: 616px;
     width: 345px;
+    border-radius: 8px 8px 0 0;
   }
   .img {
     min-height: 240px;
     min-width: 345px;
     background-image: url(images/image-product-mobile.jpg);
-    background-size: cover;
+    background-size: 100%;
     border-radius: 8px 8px 0 0;
+    background-size: cover;
   }
 
   .chanel-desktop {
     display: none;
   }
   .text-sec {
-    border: green solid 2px;
     height: 372px;
     width: 345px;
   }
@@ -147,4 +147,4 @@ button {
   .price {
     margin: 1.5rem 0;
   }
-}
+
