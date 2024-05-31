@@ -81,7 +81,6 @@ p {
   margin-right: 1.2rem;
   font-weight: 600;
   letter-spacing: 1px;
-
 }
 
 button {
@@ -98,8 +97,8 @@ button {
   border: none;
 }
 
-button:hover{
-    cursor: pointer;
+button:hover {
+  cursor: pointer;
 }
 
 .add-to-c {
@@ -151,4 +150,4 @@ button:hover{
   .price {
     margin: 1.5rem 0;
   }
-
+}
